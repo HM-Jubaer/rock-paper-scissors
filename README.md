@@ -3,4 +3,3 @@ open your Browser Console to play the Game!
 
 Author
 Hasan Mabud Jubaer
-HM-Jubaer
