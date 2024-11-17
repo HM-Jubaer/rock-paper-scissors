@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 2rem; 
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    max-width: 300px; 
+    background-color: white; 
+}
+
+button {
+    background-color: orange;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
+}
+
+button:hover {
+    transform: scale(1.1); 
+    color: white;
+    background-color: blue;
+}
+
+button:active {
+    background-color: blueviolet;
+}
+
+
+.round-result {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.score {
+    text-align: center;
+}
